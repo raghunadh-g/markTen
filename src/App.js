@@ -3,25 +3,13 @@ import "./styles.css";
 
 var billAmount = false;
 
-var mappings = {
-  "1": "1",
-  "2": "5",
-  "3": "10",
-  "4": "20",
-  "5": "50",
-  "6": "100",
-  "7": "200",
-  "8": "500",
-  "9": "1000"
-};
-
-var change = [1000, 500, 100, 20, 10, 1];
+var change = [2000, 500, 100, 20, 10, 5, 1];
 var amt = 0,
   totalamt = 0;
 
 export default function App() {
   const [billAmount, setbillAmount] = useState(false);
-  var [denominations, setDenominations] = useState([0, 0, 0, 0, 0, 0]);
+  var [denominations, setDenominations] = useState([0, 0, 0, 0, 0, 0, 0]);
   function billHandler(event) {
     amt = Number(event.target.value);
     setbillAmount(true);
