@@ -56,18 +56,18 @@ export default function App() {
         </div>
       )}
 
-      <div class="table">
+      <div className="table">
         <p id="returnChange">Return change</p>
-        <table class="table">
+        <table className="table">
           <tbody>
-            <tr class="tablerow">
-              <td class="tablecell">Number of notes</td>
+            <tr className="tablerow">
+              <td className="tablecell">Number of notes</td>
               {denominations.map((value, index) => (
                 <td key={index}>{value}</td>
               ))}
             </tr>
-            <tr class="tablerow">
-              <td class="tablecell">Denominations</td>
+            <tr className="tablerow">
+              <td className="tablecell">Denominations</td>
               {change.map((value, index) => (
                 <td key={index}>{value}</td>
               ))}
