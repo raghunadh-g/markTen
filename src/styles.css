@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bfdbfe;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+.App {
+  font-family: sans-serif;
+  max-width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+tbody {
+  margin: 2rem auto;
+}
+
+button {
+  border-radius: 0.5rem;
+  display: block;
+  padding: 0.5rem;
+  margin: 2rem auto;
+  width: 25%;
+  outline: none;
+}
+
+button:hover {
+  background-color: #60a5fa;
+  color: white;
+}
+
+#amount {
+  padding: 0.3rem;
+  widows: 50%;
+  display: block;
+  border-radius: 0.3rem;
+  margin: 1rem auto;
+}
+
+span {
+  margin: 2rem;
+}
+
+.table {
+  margin: auto;
+}
+
+td {
+  padding: 1rem;
+}
+
+.table {
+  display: table;
+  border-collapse: collapse;
+}
+.tablerow {
+  display: table-row;
+  border: 1px solid #6366f1;
+}
+.tablecell {
+  display: table-cell;
+}
+
+#returnChange {
+  font-weight: bold;
+}
